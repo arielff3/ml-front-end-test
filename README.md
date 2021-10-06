@@ -34,23 +34,33 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Prettier](https://github.com/prettier/prettier)
 - [Webpack](https://github.com/webpack/webpack)
 - [Babel](https://github.com/babel/babel)
-- [js-md5](https://github.com/emn178/js-md5)
 - [React-Query](https://react-query.tanstack.com)
 - [Jest](https://jestjs.io/pt-BR/)
 - [RTL](https://testing-library.com/docs/react-testing-library/intro)
 
 <br/>
 
-### :gear: Como executar
+#### Back-end
+- [NodeJS](https://nodejs.org/en/)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [ExpressJS](https://expressjs.com/pt-br/)
+- [axios](https://github.com/axios/axios)
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
+- [Babel](https://github.com/babel/babel)
+- [CORS](https://github.com/expressjs/cors)
 
+<br />
+
+### :gear: Como executar - Front-end(client) - Porta 3000
 
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/arielff3/ml-test-front-end
+    $ git clone https://github.com/arielff3/ml-front-end-test
 
     # Navegar para o diretório
-    $ cd ml-test-front-end
+    $ cd ml-front-end-test/client
 
     # Baixar dependências
     $ yarn install
@@ -60,5 +70,25 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
     # Realizar Testes
     $ yarn test
+
+```
+
+<br />
+
+### :gear: Como executar - Back-end(server) - Porta 3002
+
+```bash
+
+    # Clonar o repositório
+    $ git clone https://github.com/arielff3/ml-front-end-test
+
+    # Navegar para o diretório
+    $ cd ml-front-end-test/server
+
+    # Baixar dependências
+    $ yarn install
+
+    # Executar Projeto
+    $ yarn start
 
 ```
